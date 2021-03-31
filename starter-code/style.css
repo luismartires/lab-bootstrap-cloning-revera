@@ -1,0 +1,177 @@
+* {
+   font-family: "Oxygen", sans-serif;
+/*titles: font-family: "Kanit", sans-serif; */
+} 
+
+
+/*NAVBAR*/
+
+.my-navbar-box {
+ padding: 16px 160px;
+}
+
+.my-navbar-title {
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 240px;
+}
+
+.my-nav-menu {
+ font-size: 13px;
+ font-weight: 600;
+}
+
+
+/*CAROUSEL*/
+
+.my-carousel-box {
+    background-image: "../starter-code/img/overlay.png";
+    z-index: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.carousel-item {
+    filter: grayscale(100%);
+}
+
+
+/*CAROUSEL BOTTOM MENU*/
+
+.my-carousel-bot-menu-box {
+    border-top: 5px solid #F96B61;
+    border-bottom: 5px solid #F96B61;
+    background-color: #ED564B;
+    padding: 40px 0;
+}
+
+.my-carousel-bot-menu-box-fix {
+    justify-content: center;
+}
+
+.my-bot-menu-item {
+    text-align: center;
+    color: white;
+    padding: 0 16px;
+    width: 400px;
+}
+
+.my-bot-menu-img {
+    height: 72px;
+    margin-bottom: 13px;
+}
+
+.my-bot-menu-h3 {
+    font-family: "Kanit", sans-serif;
+    font-size:  24px;
+}
+
+.my-bot-menu-p {
+    font-size: 16px;
+}
+
+
+/*LASTEST PROJECT-ARTICLE SECTION*/
+
+.my-article-box {
+    padding: 0 100px 25px 100px;
+    border-bottom: 5px solid #F4473A;
+}
+
+.my-article-title-box {
+    border-bottom: 1px solid lightgrey;
+    margin-top: 64px;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+
+.my-article-title-h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 28px;
+}
+
+.my-article-title-p {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #AAAAAA;
+}
+
+.my-article-img {
+    width: 270px;
+    height: 180px;
+    align-items: center;
+}
+
+.my-article-p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.my-article-h4 {
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.my-article-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #606060;
+}
+
+.my-article-date-color {
+    color: #F4473A;
+}
+
+.my-article-info {
+    font-size: 14px;
+}
+
+
+/* BOTTOM */
+
+.bottom-box {
+    padding: 10px 100px 40px 100px;
+    background-color: #3B3B3B;
+}
+
+.bottom-h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 50px;
+}
+
+.bottom-text-p {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.bottom-text {
+    text-decoration: none;
+    font-size: 14px;
+    color: #AAAAAA;
+    border-bottom: 1px dotted lightgrey;
+    padding: 7px 0;
+    list-style-type: none;
+}
+
+
+/*FOOTER*/
+
+.footer-box {
+    background-color: #292929;
+    color: white;
+    padding: 20px 100px;
+    font-size: 12px;
+}
+
+.bottom-h3-fix {
+    padding-left: 30px;
+}
